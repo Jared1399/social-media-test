@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="../public/Styles/main.css" rel="stylesheet" type="text/css">
+    <script src="../public/scripts/sidebar.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="logout">
+        <form clas="logout__form" action="/logout" method="GET">
+            <input class="logout__button"type="submit" value="Log Out"
+        ></form>
+    </div>
+
+    <div class="main">
+        
+        <div class="title">DashBoard</div>
+
+        <div class="side">
+            <div class="button--open" id="side__button_open"><button class="side__button_text" onclick="toggleSidebar();">&#9776;</button></div>
+            
+            <div class="sidebar" id="sidebar">
+                <div class="button--close" id="side__button_close"><button class="side__button_text" onclick="toggleSidebar();" >&#9932;</button></div>
+
+                <div class="sidebar__link-list">
+                    <div class="sidebar__link-item"><a class="sidebar__link-text" href="/">DashBoard</a></div>
+                    <div class="sidebar__link-item"><a class="sidebar__link-text"href="/post/create">Create</a></div>
+                    <div class="sidebar__link-item"><a class="sidebar__link-text"href="/user/profile">My Profile</a></div>    
+                    <div class="sidebar__link-item"><a class="sidebar__link-text"href="/user/contacts">My Contacts</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card__container">
+                <div class="card__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+                <hr class="card__division">
+
+                <div class="card__body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem pariatur obcaecati 
+                    quas optio reiciendis eligendi ab ullam quo velit libero culpa non qui natus debitis sed, consequuntur 
+                    inventore eum id omnis! In cupiditate quaerat commodi harum? Necessitatibus harum nihil fuga error. Asperiores
+                    atque illo enim doloribus quo inventore exercitationem aspernatur accusantium in eaque debitis veniam, fuga quia 
+                    corrupti eveniet! Odit.
+
+                    <div class="card__stats">
+                        <div class="card__likes"><i class="far fa-heart"></i> 0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__container">
+                <div class="card__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+                <hr class="card__division">
+
+                <div class="card__body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem pariatur obcaecati 
+                    quas optio reiciendis eligendi ab ullam quo velit libero culpa non qui natus debitis sed, consequuntur 
+                    inventore eum id omnis! In cupiditate quaerat commodi harum? Necessitatibus harum nihil fuga error. Asperiores
+                    atque illo enim doloribus quo inventore exercitationem aspernatur accusantium in eaque debitis veniam, fuga quia 
+                    corrupti eveniet! Odit.
+
+                    <div class="card__stats">
+                        <div class="card__likes"><i class="far fa-heart"></i> 1</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card__container">
+                <div class="card__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+                <hr class="card__division">
+
+                <div class="card__body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem pariatur obcaecati 
+                    quas optio reiciendis eligendi ab ullam quo velit libero culpa non qui natus debitis sed, consequuntur 
+                    inventore eum id omnis! In cupiditate quaerat commodi harum? Necessitatibus harum nihil fuga error. Asperiores
+                    atque illo enim doloribus quo inventore exercitationem aspernatur accusantium in eaque debitis veniam, fuga quia 
+                    corrupti eveniet! Odit.
+
+                    <div class="card__stats">
+                        <div class="card__likes"><i class="far fa-heart"></i> 10</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+
+    </div>
+
+    
+</body>
+</html>
+
+
+    

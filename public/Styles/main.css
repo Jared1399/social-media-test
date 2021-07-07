@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0F0E0A !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(48, 42, 37);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgb(77, 67, 59);
+}
+
+.title{
+    font-size: 2rem;
+    color: blanchedalmond;
+    position: absolute;
+    left: 45%;
+    top: 2%;
+}
+.logout{
+    position: absolute;
+    top: 2%;
+    left: 90%;
+}
+
+.logout__button{
+    width: 100%;
+    background: none;
+    border-radius: 10%;
+    border: 2px solid rgb(252, 203, 43);
+    color: blanchedalmond;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+ .logout__button:hover{
+     color: rgb(252, 203, 43) ;
+     background-color: blanchedalmond;
+     transition: 0.3s;
+ }
+
+ .sidebar{
+     display: none;
+     position: fixed;
+     background-color: rgb(41, 38, 30);
+     width: 15%;
+     height: 100%;
+     transition: 0.5s;
+     
+ }
+
+ .sidebar__link-list{
+    padding: 2rem 2rem;
+ }
+
+ .sidebar__link-item{
+    background-color: rgb(63, 59, 49);
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: 0.2rem 0 ;
+    border-radius: 0.1rem;
+ }
+
+ .sidebar__link-text{
+     color: blanchedalmond;
+     text-decoration: none;
+ }
+
+ .side__button_text{
+     background: none;
+     border: none;
+     color: blanchedalmond;
+     font-size: 2rem;
+     cursor: pointer;
+ }
+ .button--close{
+     display: none;
+     width: 15%;
+     text-align: right;
+ }
+
+ .button--open{
+    position: fixed;
+    width: 15%;
+}
+
+ .cards{
+     overflow: hidden;
+     position: absolute;
+     left: 30%;
+     width: 40%;
+     margin-top: 8rem;
+ }
+
+ .card__container{
+     width: 100%;
+     background-color: rgb(255, 245, 231);
+     border-radius: 10px;
+     margin: 3rem 0;
+     padding: 1rem 2rem;
+ }
+
+ .card__stats{
+    width: 10%;
+    color: black;
+    position: relative;
+    left: 90%;
+ }
+
+ .card__likes{
+     cursor: pointer;
+     color: red;
+ }
+
+ .user{
+     display: grid;
+     grid-template-columns: 0.5fr 1fr 0.5fr
+     
+ }
+
+ .user__value{
+     text-align: right;
+ }

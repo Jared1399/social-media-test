@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("../Assets/krzysztof-kowalik-BqsiBCl4rmE-unsplash.jpg") ;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-title{
+    width: 13rem;
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(252, 203, 43);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    
+}
+
+.login-input{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(252, 203, 43);
+    padding: 0.5rem 0;
+    border: 0.5rem 0;
+}
+
+.login-input i{
+    width: 2rem;
+    text-align: center;
+}
+
+.login-input input{
+    border: none;
+    outline: none;
+    background: none;
+    color: blanchedalmond;
+    font-size: 1.2rem;
+    width: 80%;
+    margin: 0 10px;
+}
+
+.button-login{
+    width: 100%;
+    background: none;
+    border: 2px solid rgb(252, 203, 43);
+    color: blanchedalmond;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.switch-link{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    color: blanchedalmond;
+}
+
+.switch-link a {
+    text-decoration: none;
+    color:rgb(252, 203, 43);
+}
+
+.login-form{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: blanchedalmond;
+    background-color: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55);
+}
+
+
